@@ -7,6 +7,7 @@ fn main() {
     // Using the let command means we are instantiating the variable x
     let x = 45;
     println!("The value of x is {}\n", x);
+    println!("This x is an immutable variable meaning the value cannot change\n");
     
     /* Now initializing x = 60 will throw out an error
      *
@@ -24,5 +25,6 @@ fn main() {
     println!("The old value of x is {}\n",x);
     x = 32;
     println!("The new value of x is {}\n",x);
+    println!("This x is a mutable variable meaning the value cannot change\n");
 
 }
