@@ -37,5 +37,5 @@ Notice how we did not add a type like integer. RUST will automatically determine
 
 Now if we were going to change the value of x to 45, the RUST compiler will throw an error. This is because using the `let` command creates an immutable variable. This means that the value of the variable `x` cannot change. 
 
-To make an immutable variable, we need to use the `mut` command
+To make an mutable variable, we need to use the `mut` command
     `let mut x = 60;`
