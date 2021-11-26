@@ -19,3 +19,23 @@ To run the src/main.rs file we need to use `cargo run` which will compile and ru
 The Cargo.lock contains information about our dependencies
 
 Once we are ready for the release, we use `cargo build --release`. This command puts the binary in target/release instead of target/debug. compiling in debug mode is the default for develoopment. Release mode takes longer to compile but code will run faster.
+
+#### Lesson 1-2 Hello World
+Package Name : hello_world
+
+#### Lesson 3 Comments
+Package Name : hello_world
+
+Comments are exactly the same in C where `//` means one line of comment and `/* */` means a block of comments
+
+#### Lesson 4 Variables
+Package Name : l4-variables
+
+To create an immutable variable in RUST, we use the `let` command. For example:
+    `let x = 60;`
+Notice how we did not add a type like integer. RUST will automatically determine the type of the variable. 
+
+Now if we were going to change the value of x to 45, the RUST compiler will throw an error. This is because using the `let` command creates an immutable variable. This means that the value of the variable `x` cannot change. 
+
+To make an immutable variable, we need to use the `mut` command
+    `let mut x = 60;`
