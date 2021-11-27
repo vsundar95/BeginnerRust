@@ -49,3 +49,13 @@ RUST immediately assumes the data type of the variable. When we initialize `let 
 Crate Name : l6-if-else-statements
 
 RUST uses a similar syntax when crating if-else if-else statements. RUST uses `{}` for the conditionals. NOTE: RUST will throw out a warning when the developer uses `()` to contain the condition. Therefore `()` are not needed for conditions.
+
+#### Lesson 7 Infinite Loop
+Crate Name : l7-infinite-loop
+
+To begin a loop, we use the `loop` command. To exit out of a loop we use `break` and to continue without doing anything to the current value, we use the `continue` command. Nothing too complex or different from C/C++
+
+#### Lesson 8 While Loop
+Crate Name : l8-while-loop
+
+Exactly like C/C++ with while loop just without the parenthesis. Syntax is `while <condition> { execute commands ; increase counter }`
