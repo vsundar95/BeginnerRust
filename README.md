@@ -21,15 +21,15 @@ The Cargo.lock contains information about our dependencies
 Once we are ready for the release, we use `cargo build --release`. This command puts the binary in target/release instead of target/debug. compiling in debug mode is the default for develoopment. Release mode takes longer to compile but code will run faster.
 
 #### Lesson 1-2 Hello World
-Package Name : hello_world
+Crate Name : hello_world
 
 #### Lesson 3 Comments
-Package Name : hello_world
+Crate Name : hello_world
 
 Comments are exactly the same in C where `//` means one line of comment and `/* */` means a block of comments
 
 #### Lesson 4 Variables
-Package Name : l4-variables
+Crate Name : l4-variables
 
 To create an immutable variable in RUST, we use the `let` command. For example:
     `let x = 60;`
@@ -39,3 +39,13 @@ Now if we were going to change the value of x to 45, the RUST compiler will thro
 
 To make an mutable variable, we need to use the `mut` command
     `let mut x = 60;`
+
+#### Lesson 5 Variable Data Types
+Crate Name : l5-variable-data-types
+
+RUST immediately assumes the data type of the variable. When we initialize `let x = 45`, RUST says that this variable is a data type of integer-32. However, we can specify the data type by putting a `:` and the data type. For example: `let x: i64 = 45` making it an integer-64. There are a lot of data types that can be used in RUST. Please check the sample code for more information. 
+
+#### Lesson 6 If Else Statements
+Crate Name : l6-if-else-statements
+
+RUST uses a similar syntax when crating if-else if-else statements. RUST uses `{}` for the conditionals. NOTE: RUST will throw out a warning when the developer uses `()` to contain the condition. Therefore `()` are not needed for conditions.
