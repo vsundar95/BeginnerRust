@@ -59,3 +59,13 @@ To begin a loop, we use the `loop` command. To exit out of a loop we use `break`
 Crate Name : l8-while-loop
 
 Exactly like C/C++ with while loop just without the parenthesis. Syntax is `while <condition> { execute commands ; increase counter }`
+
+#### Lesson 9 For loop
+All for-loop must use an iterator. An iterator is defined by the `..` syntax. For example, `1..11` means 1 to 10 excluding 11. This is a range from 1 to 11 non-exclusive the upper bound. 
+The syntax for a for loop is like python's for-loop: `for i in 1..11 { condition }`. 
+
+We can even have variables be set to iterators as well. This is set as `let numbers = 31..50` which will create a list of numbers from 31 to 50. Simply call the for-loop as `for i in numbers { condition }`.  
+
+A for-loop can also be used to iterate over the vector as well. First we need to create a vector using the `vec!` command -- vec~[A, B, C, ....] and this vector can be strings or integers depending on the values given. Now for iterating on a vector, we use the .iter() command. For example, `for a in <vector>.iter() { condition }`. 
+
+We can even get the index of a value inside the vector using the .enumerate() command. For example: `for (index, val) in vector.iter().enumerate() { condition }`
