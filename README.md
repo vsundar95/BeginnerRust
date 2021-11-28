@@ -80,3 +80,33 @@ Enums are a way to express your code in a simple and descriptive way. We have to
 To call an enum type we simply let a variable be defined to the enum. For example, `let variable:<enum Name> = <enum Name>::<default enum Value>;`
 
 Now if we want to do some control flow using the enum, we can use the `match` operator. This allows the developer to compare a value against a series of patterns and then execute code based on which pattern matches. It is like a switch command in C/C++. 
+
+### Lesson 11 Constants
+Crate Name : l11-constants
+
+Constants are variables that are declared in the global scope and cannot be changed.
+We use the `const` keyword followed by the name of the const. With constants, we
+need to specify the type of data. 
+
+### Lesson 12 Tuples
+Crate name : l12-tuples
+
+Tuples are a bunch of variables in a collection. They are defined as such:
+`let tup1 = (20, 25, 30, 35);` and are comma separated. To print out a value
+in a specific index of the tuple you write `tup1.<index>`. We can even store values
+of different types like int, boolean, floats, strings. We can even have a nested
+tuple. To access the nested tuple, we need to wrap the original tuple in () and then
+we can write the index.  
+
+Another use for tuples is for declaring mutliple variables at once. We simply
+create another tuple of variables and assign it to the assigning tuple. 
+
+### Lesson 13 Functions
+Crate name : l13-functions
+
+Functions are always defined by the `fn` keyword. The parameters of the functions
+need to be defined. So if the program is passing in an integer, we then have to
+set the parameter to u32 or unsigned int-32. 
+
+Functions can also return a result. Depending on the type of the result we use the
+`->` to return the type of the result. 
