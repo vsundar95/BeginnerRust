@@ -149,3 +149,13 @@ wrap the reference in codeblocks, change the reference to a mutable reference
 `&mut` and perform any update to the original value.
 
 ### Lesson 17 - Structs
+Crate name : l17-structs
+
+To define a struct, we simply call `struct` outside the main function. The
+variables in the struct need to be defined with the data type (u8, u32, ..).
+
+To initialize a struct, use the let command and call the struct using { }. 
+Inside the { } we have the variables defined. 
+
+To change the value inside a struct, we need to define the initialized struct
+as a mutable struct `mut`. 
