@@ -110,3 +110,25 @@ set the parameter to u32 or unsigned int-32.
 
 Functions can also return a result. Depending on the type of the result we use the
 `->` to return the type of the result. 
+
+### Lesson 14 Code Blocks
+Crate name : l14-code-blocks
+
+A code block is a piece of code that is found inside two { }. It is oscilated
+but does have access to data variables defined outside { }. However, the 
+outside { } does not have access to the variables inside the code block { }. 
+The variables in { } exist only inside { }. 
+
+### Lesson 15 Shadowing
+Crate name : l15-shadowing
+
+Shadowing is the concept of resuing a variable name rather than creating two
+unique variables. We use code blocks to shadow a variable. A simple 
+example is:
+`let x = 5; let x = x + 1; let x = x * 2;`
+ 
+We can see that the value of x changes due to the second statement from 6 to
+12 because the first statement is being "shadowed" by the second statement. 
+
+We can even use mutable types to show shadowing simply by using the `mut` 
+prefix.
