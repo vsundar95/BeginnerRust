@@ -12,8 +12,19 @@ fn main() {
         
         /* Shadowing the first declaration of x */
         let x = 15;
-        println!("x: {}",x);
+        println!("Shadowing x: {}",x);
 
     }
-    println!("x: {}",x);
+    println!("Original value x: {}",x);
+
+    /* Notice how the value of x does not change now due to the
+     * shadowing of the variable x
+     */
+
+    /* We can also change data types with shadowing */
+    let y = "String y here!";
+    println!("y is {}",y);
+
+    let y:bool = true;
+    println!("y is {}",y);
 }
