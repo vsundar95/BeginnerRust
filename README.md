@@ -159,3 +159,14 @@ Inside the { } we have the variables defined.
 
 To change the value inside a struct, we need to define the initialized struct
 as a mutable struct `mut`. 
+
+### Lesson 18 - Tuple Structs
+Crate name : l18-tuple-structs
+
+Tuple structs are almost identical to regular structs except they are treated
+as tuples. Simply create a tuple struct before the main function by 
+using ( ) instead of { }.
+
+The only difference is that tuples use index values instead of variable names.
+
+
