@@ -132,3 +132,20 @@ We can see that the value of x changes due to the second statement from 6 to
 
 We can even use mutable types to show shadowing simply by using the `mut` 
 prefix.
+
+### Lesson 16 - References
+Crate name : l16-references
+
+References are a way to call a variable with a different name. We are referecing
+an original varialbe. This is similar to c++ with pointers. We use the `&` to
+reference. 
+
+`let x = 10; let xr = &x;`
+
+We can see that xr is referencing x. 
+
+To change the value of the original value using a reference, we need to 
+wrap the reference in codeblocks, change the reference to a mutable reference
+`&mut` and perform any update to the original value.
+
+### Lesson 17 - Structs
