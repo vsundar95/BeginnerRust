@@ -172,8 +172,26 @@ The only difference is that tuples use index values instead of variable names.
 ### Lesson 19 - Pass by Reference
 Crate name : l19-pass-by-reference
 
-for this example, we are passing a struct by reference. We would have to use the
+For this example, we are passing a struct by reference. We would have to use the
 & sign to pass it to a function. Now we can remove the & and pass the struct
 without using the & sign but doing so will remove the struct out of scope. 
 So to avoid any out of scope issue, we use the & and pass by reference.   
 
+### Lesson 20 - Arrays
+Crate name : l20-arrays
+
+A sequence of stuff that you can access.
+`let numbers = [1,2,3,4,5];`
+
+To access a value in an array, call the array but put the position inside the
+`[]`. So `numbers[0]`. To iterate through an array, use the `.iter()` command.
+You can also loop using indices as well starting from 0 and ending in 
+array.len().
+
+Arrays can also be data typed. 
+`let numbers: [i32; 5] = [1,2,3,4,5]` which means we have defined an array
+of type integer-32 with a defined size of 5.
+
+We can even have an array of a single value n number of times:
+`let numbers = [2; 400];` which means array size 400 has the value 2 in all
+elements.  
