@@ -212,3 +212,11 @@ defining the String data type. We use the `String::from("STRING");`
 We can perform more functions on the string data type as seen in the cargo file.
 
 Documentation: https://doc.rust-lang.org/std/string/struct.String.html
+
+### Lesson 23 - Traits
+Crate name : l23-traits
+
+A trait is an interface that something an object i.e. struct can do. It is
+similar to that of the impl function but it is a specific trait
+
+
