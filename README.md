@@ -217,7 +217,15 @@ Documentation: https://doc.rust-lang.org/std/string/struct.String.html
 Crate name : l23-traits
 
 A trait is an interface that something an object i.e. struct can do. It is
-similar to that of the impl function but it is a specific trait
+similar to that of the impl function but it is a specific trait. Traits define shared
+behavior in an abstract way. 
 
 The example uses the to_string trait where we need to create an impl function
 and "for" it from the struct. 
+
+### Lesson 24 - Vectors
+Crate name : l24-vectors
+
+Vectors are like arrays but can be dynamic. We can define vectors in two 
+ways:
+`Vec<u32> = Vec::new()` or using `vec![]` macro. 
