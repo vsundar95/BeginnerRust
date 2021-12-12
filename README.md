@@ -219,4 +219,5 @@ Crate name : l23-traits
 A trait is an interface that something an object i.e. struct can do. It is
 similar to that of the impl function but it is a specific trait
 
-
+The example uses the to_string trait where we need to create an impl function
+and "for" it from the struct. 
