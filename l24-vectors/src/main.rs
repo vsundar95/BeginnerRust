@@ -14,6 +14,7 @@ fn main() {
         test_vector_1.push(num);
     }
 
+    /* We use the remove command to remove a value in the position */
     test_vector_1.remove(3);
 
     for num in test_vector_1.iter()
@@ -21,6 +22,17 @@ fn main() {
         println!("{}",num);
     }
 
+    println!("-----> ---------- <-----");
+    /* Second way of creating a vector
+     * This is similar to that of an array
+     */
+    let mut test_vector_2 = vec![0,1,2,3,4];
+    test_vector_2.push(5);
+    test_vector_2.remove(2);
 
+    for num in test_vector_2.iter()
+    {
+        println!("{}",num);
+    }
 
 }
