@@ -5,6 +5,7 @@ fn main() {
     /* Printing out the value in the 0th index */
     println!("first value is: {}",numbers[0]);
 
+    println!("-----> ---------- <-----");
     /* We can even print using a for-loop using
      * the .iter() command
      */

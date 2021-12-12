@@ -195,3 +195,20 @@ of type integer-32 with a defined size of 5.
 We can even have an array of a single value n number of times:
 `let numbers = [2; 400];` which means array size 400 has the value 2 in all
 elements.  
+
+### Lesson 21 - Impl (Implementation) Keyword
+Crate name : l21-impl
+
+This is a way to add methods to a struct to make it useful making the struct
+an object. These impl functions will only work on the struct since we used
+the name of the struct. Impl functions start with the word `impl`. 
+
+### Lesson 22 - Strings
+Crate name : l22-strings
+
+There are two types of strings: primitive and String data type. We will be
+defining the String data type. We use the `String::from("STRING");`
+
+We can perform more functions on the string data type as seen in the cargo file.
+
+Documentation: https://doc.rust-lang.org/std/string/struct.String.html
