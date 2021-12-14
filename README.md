@@ -243,3 +243,12 @@ cannot open.
 
 We can create a string and put the contents of the file into the string. This
 is done using the `read_to_string` function as well as an `expect` trail. 
+
+### Lesson 26 - Command Line Arguments
+Crate name : l26-command-line-arguments
+
+We can take in command line arguments from rust. This is similar to that of C/C++.
+First we need to add a package at the top: `use std::env`
+
+Now we use the command `env::args().collect()` to get the command line arguments
+and make them iterable. 
