@@ -229,3 +229,17 @@ Crate name : l24-vectors
 Vectors are like arrays but can be dynamic. We can define vectors in two 
 ways:
 `Vec<u32> = Vec::new()` or using `vec![]` macro. 
+
+### Lesson 25 - Reading a File
+Crate name : l25-reading-a-file
+
+Reading from a file is simple with rust. First we need to import two modules
+at the top of the program:
+`use std::fs::File;` and `usr std::io::prelude::*;`
+
+Now we must open the file using `File::open`. Notice that there is a `.expect`
+at the end of the open command. This is used to throw an error when the file
+cannot open. 
+
+We can create a string and put the contents of the file into the string. This
+is done using the `read_to_string` function as well as an `expect` trail. 
