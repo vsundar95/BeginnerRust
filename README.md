@@ -269,3 +269,21 @@ Crate name : l28-defining-traits
 A trait is a certain set of rules that an object must have in order to have
 the name of the trait. These traits are particular functions that can be used
 as impl functions in Rust. 
+
+### Lesson 29 - Pattern Matching
+Crate name : l29-pattern-matching
+
+A `match` statement is like a case and switch statement in C++. The switches
+are based on the values of the match variable. For the default, we use the `_`
+instead of saying default. For example:
+
+```
+let number = 2;
+match number
+{
+	1 => condition
+	2 => condition
+	_ => condition
+}
+```
+This is the basics of a match statement
