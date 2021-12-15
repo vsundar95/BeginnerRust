@@ -252,3 +252,20 @@ First we need to add a package at the top: `use std::env`
 
 Now we use the command `env::args().collect()` to get the command line arguments
 and make them iterable. 
+
+### Lesson 27 - Writing to a File
+Create name : l27-writing-to-a-file
+
+Using the same header as reading from a file, we can also write to a file.
+This process is straightforwad. We simple need to create the file and write to the file.
+To create a file, we need to use the `File::create()` function to create the file
+by entering the file name. We also use the `write_all()` function to write
+text to the file. Just note when writing to the file use the `b""` when starting
+your text. This will convert the string to bytes and place it into the file. 
+
+### Lesson 28 - Defining Traits
+Crate name : l28-defining-traits
+
+A trait is a certain set of rules that an object must have in order to have
+the name of the trait. These traits are particular functions that can be used
+as impl functions in Rust. 
