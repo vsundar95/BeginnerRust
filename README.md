@@ -286,4 +286,6 @@ match number
 	_ => condition
 }
 ```
-This is the basics of a match statement
+This is the basics of a match statement. Match statements can also be used
+for strings as well. NOTE: Do not initialize a string as String::from("") because
+it will throw a struct error. So simply initialize it as "String". 
