@@ -289,3 +289,11 @@ match number
 This is the basics of a match statement. Match statements can also be used
 for strings as well. NOTE: Do not initialize a string as String::from("") because
 it will throw a struct error. So simply initialize it as "String". 
+
+### Lesson 30 - Reading User Input
+Crate name : l30-reading-user-input
+
+We can use `io::stdin().read_line()` to read in user data. This comes from
+the `use std::io` package at the top of the program. User data can be put into
+a match statement where we match on OK(_) where that matches on default and 
+Err(e) which matches on an error. 
