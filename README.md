@@ -81,14 +81,14 @@ To call an enum type we simply let a variable be defined to the enum. For exampl
 
 Now if we want to do some control flow using the enum, we can use the `match` operator. This allows the developer to compare a value against a series of patterns and then execute code based on which pattern matches. It is like a switch command in C/C++. 
 
-### Lesson 11 Constants
+#### Lesson 11 Constants
 Crate Name : l11-constants
 
 Constants are variables that are declared in the global scope and cannot be changed.
 We use the `const` keyword followed by the name of the const. With constants, we
 need to specify the type of data. 
 
-### Lesson 12 Tuples
+#### Lesson 12 Tuples
 Crate name : l12-tuples
 
 Tuples are a bunch of variables in a collection. They are defined as such:
@@ -101,7 +101,7 @@ we can write the index.
 Another use for tuples is for declaring mutliple variables at once. We simply
 create another tuple of variables and assign it to the assigning tuple. 
 
-### Lesson 13 Functions
+#### Lesson 13 Functions
 Crate name : l13-functions
 
 Functions are always defined by the `fn` keyword. The parameters of the functions
@@ -111,7 +111,7 @@ set the parameter to u32 or unsigned int-32.
 Functions can also return a result. Depending on the type of the result we use the
 `->` to return the type of the result. 
 
-### Lesson 14 Code Blocks
+#### Lesson 14 Code Blocks
 Crate name : l14-code-blocks
 
 A code block is a piece of code that is found inside two { }. It is oscilated
@@ -119,7 +119,7 @@ but does have access to data variables defined outside { }. However, the
 outside { } does not have access to the variables inside the code block { }. 
 The variables in { } exist only inside { }. 
 
-### Lesson 15 Shadowing
+#### Lesson 15 Shadowing
 Crate name : l15-shadowing
 
 Shadowing is the concept of resuing a variable name rather than creating two
@@ -133,7 +133,7 @@ We can see that the value of x changes due to the second statement from 6 to
 We can even use mutable types to show shadowing simply by using the `mut` 
 prefix.
 
-### Lesson 16 - References
+#### Lesson 16 - References
 Crate name : l16-references
 
 References are a way to call a variable with a different name. We are referecing
@@ -148,7 +148,7 @@ To change the value of the original value using a reference, we need to
 wrap the reference in codeblocks, change the reference to a mutable reference
 `&mut` and perform any update to the original value.
 
-### Lesson 17 - Structs
+#### Lesson 17 - Structs
 Crate name : l17-structs
 
 To define a struct, we simply call `struct` outside the main function. The
@@ -160,7 +160,7 @@ Inside the { } we have the variables defined.
 To change the value inside a struct, we need to define the initialized struct
 as a mutable struct `mut`. 
 
-### Lesson 18 - Tuple Structs
+#### Lesson 18 - Tuple Structs
 Crate name : l18-tuple-structs
 
 Tuple structs are almost identical to regular structs except they are treated
@@ -169,7 +169,7 @@ using ( ) instead of { }.
 
 The only difference is that tuples use index values instead of variable names.
 
-### Lesson 19 - Pass by Reference
+#### Lesson 19 - Pass by Reference
 Crate name : l19-pass-by-reference
 
 For this example, we are passing a struct by reference. We would have to use the
@@ -177,7 +177,7 @@ For this example, we are passing a struct by reference. We would have to use the
 without using the & sign but doing so will remove the struct out of scope. 
 So to avoid any out of scope issue, we use the & and pass by reference.   
 
-### Lesson 20 - Arrays
+#### Lesson 20 - Arrays
 Crate name : l20-arrays
 
 A sequence of stuff that you can access.
@@ -196,14 +196,14 @@ We can even have an array of a single value n number of times:
 `let numbers = [2; 400];` which means array size 400 has the value 2 in all
 elements.  
 
-### Lesson 21 - Impl (Implementation) Keyword
+#### Lesson 21 - Impl (Implementation) Keyword
 Crate name : l21-impl
 
 This is a way to add methods to a struct to make it useful making the struct
 an object. These impl functions will only work on the struct since we used
 the name of the struct. Impl functions start with the word `impl`. 
 
-### Lesson 22 - Strings
+#### Lesson 22 - Strings
 Crate name : l22-strings
 
 There are two types of strings: primitive and String data type. We will be
@@ -213,7 +213,7 @@ We can perform more functions on the string data type as seen in the cargo file.
 
 Documentation: https://doc.rust-lang.org/std/string/struct.String.html
 
-### Lesson 23 - Traits
+#### Lesson 23 - Traits
 Crate name : l23-traits
 
 A trait is an interface that something an object i.e. struct can do. It is
@@ -223,14 +223,14 @@ behavior in an abstract way.
 The example uses the to_string trait where we need to create an impl function
 and "for" it from the struct. 
 
-### Lesson 24 - Vectors
+#### Lesson 24 - Vectors
 Crate name : l24-vectors
 
 Vectors are like arrays but can be dynamic. We can define vectors in two 
 ways:
 `Vec<u32> = Vec::new()` or using `vec![]` macro. 
 
-### Lesson 25 - Reading a File
+#### Lesson 25 - Reading a File
 Crate name : l25-reading-a-file
 
 Reading from a file is simple with rust. First we need to import two modules
@@ -244,7 +244,7 @@ cannot open.
 We can create a string and put the contents of the file into the string. This
 is done using the `read_to_string` function as well as an `expect` trail. 
 
-### Lesson 26 - Command Line Arguments
+#### Lesson 26 - Command Line Arguments
 Crate name : l26-command-line-arguments
 
 We can take in command line arguments from rust. This is similar to that of C/C++.
@@ -253,7 +253,7 @@ First we need to add a package at the top: `use std::env`
 Now we use the command `env::args().collect()` to get the command line arguments
 and make them iterable. 
 
-### Lesson 27 - Writing to a File
+#### Lesson 27 - Writing to a File
 Create name : l27-writing-to-a-file
 
 Using the same header as reading from a file, we can also write to a file.
@@ -263,14 +263,14 @@ by entering the file name. We also use the `write_all()` function to write
 text to the file. Just note when writing to the file use the `b""` when starting
 your text. This will convert the string to bytes and place it into the file. 
 
-### Lesson 28 - Defining Traits
+#### Lesson 28 - Defining Traits
 Crate name : l28-defining-traits
 
 A trait is a certain set of rules that an object must have in order to have
 the name of the trait. These traits are particular functions that can be used
 as impl functions in Rust. 
 
-### Lesson 29 - Pattern Matching
+#### Lesson 29 - Pattern Matching
 Crate name : l29-pattern-matching
 
 A `match` statement is like a case and switch statement in C++. The switches
@@ -290,7 +290,7 @@ This is the basics of a match statement. Match statements can also be used
 for strings as well. NOTE: Do not initialize a string as String::from("") because
 it will throw a struct error. So simply initialize it as "String". 
 
-### Lesson 30 - Reading User Input
+#### Lesson 30 - Reading User Input
 Crate name : l30-reading-user-input
 
 We can use `io::stdin().read_line()` to read in user data. This comes from
@@ -298,7 +298,7 @@ the `use std::io` package at the top of the program. User data can be put into
 a match statement where we match on OK(_) where that matches on default and 
 Err(e) which matches on an error. 
 
-### Lesson 31 - Hash Maps
+#### Lesson 31 - Hash Maps
 Crate name : l31-hash-maps
 
 Hash map is a collection of key value pairs. Keys are mapped to values. We need
