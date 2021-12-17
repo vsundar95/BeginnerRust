@@ -297,3 +297,12 @@ We can use `io::stdin().read_line()` to read in user data. This comes from
 the `use std::io` package at the top of the program. User data can be put into
 a match statement where we match on OK(_) where that matches on default and 
 Err(e) which matches on an error. 
+
+### Lesson 31 - Hash Maps
+Crate name : l31-hash-maps
+
+Hash map is a collection of key value pairs. Keys are mapped to values. We need
+to import the hash map struct into Rust using `use std::collections::HashMap`
+
+In this example we talk about inserting, getting, printing all key and value pair, removing a key and value pair,
+and checking to see if a key exits.
