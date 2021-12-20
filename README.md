@@ -317,3 +317,13 @@ need to add `rand = "0.3"`. Now in the .rs file, we need to add at the top,
 For integer values, we need to generate a range using the `.gen_range(min, max)`
 command. For boolean values, we need to use the `.gen_weighted_bool(x)` command
 where x represents the value of 1 in x values being true.  
+
+#### Lesson 33 - String Methods
+Crate name : l33-string-methods
+
+For this tutorial on string methods, we chose to cover five main methods for Strings:
+	-> replace
+	-> lines
+	-> split
+	-> trim
+	-> chars
