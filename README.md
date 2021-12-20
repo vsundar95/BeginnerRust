@@ -306,3 +306,14 @@ to import the hash map struct into Rust using `use std::collections::HashMap`
 
 In this example we talk about inserting, getting, printing all key and value pair, removing a key and value pair,
 and checking to see if a key exits.
+
+#### Lesson 32 - Random Numbers 
+Crate name : l32-random-numbers
+
+First we need to import the rand crate in the Cargo.toml. Under dependencies, we
+need to add `rand = "0.3"`. Now in the .rs file, we need to add at the top,
+`extern crate rand` and `use rand::Rng`.
+
+For integer values, we need to generate a range using the `.gen_range(min, max)`
+command. For boolean values, we need to use the `.gen_weighted_bool(x)` command
+where x represents the value of 1 in x values being true.  
