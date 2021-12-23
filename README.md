@@ -327,3 +327,19 @@ For this tutorial on string methods, we chose to cover five main methods for Str
 	-> split
 	-> trim
 	-> chars
+
+#### Lesson 34 - Multiple Source Files
+Crate name : l34-multiple-source-files
+
+When creating multiple source files we need to include them as modules. TO
+do this, we add the `mod <name of file without .rs>` at the top of the file. 
+
+#### Lesson 35 - Regular Expressions
+Crate name : l35-regex
+
+We are using regular expressions to see if there is a match. For example,
+the expression we are using is the `\w{5}` to find if the word entered matches
+the 5-letter rule. 
+
+We have also used the capture method to capture what the word is that passes
+the regex rule. 
