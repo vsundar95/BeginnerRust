@@ -392,3 +392,17 @@ to convert the output from bytes to utf8-string.
 The function String::from_utf8_lossy converts a slice of bytes to a string including
 invalid characters. This will replace any invalid UTF-8 sequences with a ? character.
 Therefore, the return output needs to be a valid UTF-8 string. 
+
+#### Lesson 41 - Writing and Running Tests
+Crate name : l41-tests
+
+We can run our tests using `cargo test`. To write a test, we can define a 
+separate module for tests. Each test needs to have the header `#[test]`. There
+are other headers we can use too to do certain functions but please see the code
+for those headers.  
+
+NOTE: When calling out of scope functions, it is important to use the super
+keyword. SO when testing functions, write super::<function>. 
+
+This super keyword also works for structs too. This allows us to write tests
+for structs and their implementation function. 
