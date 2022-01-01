@@ -6,7 +6,12 @@ fn main() {
        None => "No Character at index 8".to_string()
    });
 
-   /* Now calling out the get_occupation function */
+   /* Now calling out the get_occupation function
+    * With this we can get the return value from the get_occupation
+    * function and use that as an option. Notice how we are returning
+    * either a Some or a None and that value is being printed out
+    * in this println! 
+    */
    println!("Occupation is {}", match get_occupation("Vinny") {
        Some(o) => o,
        None => "There is no occupation"

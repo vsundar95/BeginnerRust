@@ -362,3 +362,47 @@ understand are Some and None. Some represents an option while None represents
 no option. We can have multiple Some but only one None. 
 
 We can even return an option depending on the situation. 
+
+#### Lesson 39 - Enum Methods
+Crate name : l39-enum-methods
+
+We can move logic from main functions into enum types. First we need to 
+create an enum type. Then we create an implement function type `impl` with a 
+function. This function is going to check the enum passed in and return a bool
+value.  
+
+Note: When creating an OR expression, use one | not two ||. 
+
+#### Lesson 40 - CLI (Command Line Interface)
+Crate name : l40-cli
+
+We are going to be running or executing commands using the command line
+interface within the rust file. To do this, I have created a sample python
+script called hello.py which all it does is print hello world.
+
+We need to use the `std::process::Command` struct.  
+
+Note: I have created a Command block that calls the python3 command and runs it
+on hello.py. The issue with the actual tutorial from YouTube is the use of the
+unsafe function and the relative path of the python3 command. To fix this, I
+am giving the absolute path of python3 which is /usr/bin/python3 to fix any 
+alias issues. As for the unsafe command, I am using from_utf8_lossy function 
+to convert the output from bytes to utf8-string. 
+
+The function String::from_utf8_lossy converts a slice of bytes to a string including
+invalid characters. This will replace any invalid UTF-8 sequences with a ? character.
+Therefore, the return output needs to be a valid UTF-8 string. 
+
+#### Lesson 41 - Writing and Running Tests
+Crate name : l41-tests
+
+We can run our tests using `cargo test`. To write a test, we can define a 
+separate module for tests. Each test needs to have the header `#[test]`. There
+are other headers we can use too to do certain functions but please see the code
+for those headers.  
+
+NOTE: When calling out of scope functions, it is important to use the super
+keyword. So when testing functions, write super::<function>. 
+
+This super keyword also works for structs too. This allows us to write tests
+for structs and their implementation function. 
