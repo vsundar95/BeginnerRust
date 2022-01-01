@@ -372,3 +372,19 @@ function. This function is going to check the enum passed in and return a bool
 value.  
 
 Note: When creating an OR expression, use one | not two ||. 
+
+#### Lesson 40 - CLI (Command Line Interface)
+Crate name : l40-cli
+
+We are going to be running or executing commands using the command line
+interface within the rust file. To do this, I have created a sample python
+script called hello.py which all it does is print hello world.
+
+We need to use the `std::process::Command` struct.  
+
+Note: I have created a Command block that calls the python3 command and runs it
+on hello.py. The issue with the actual tutorial from YouTube is the use of the
+unsafe function and the relative path of the python3 command. To fix this, I
+am giving the absolute path of python3 which is /usr/bin/python3 to fix any 
+alias issues. As for the unsafe command, I am using from_utf8_lossy function 
+to convert the output from bytes to utf8-string. 
