@@ -362,3 +362,13 @@ understand are Some and None. Some represents an option while None represents
 no option. We can have multiple Some but only one None. 
 
 We can even return an option depending on the situation. 
+
+#### Lesson 39 - Enum Methods
+Crate name : l39-enum-methods
+
+We can move logic from main functions into enum types. First we need to 
+create an enum type. Then we create an implement function type `impl` with a 
+function. This function is going to check the enum passed in and return a bool
+value.  
+
+Note: When creating an OR expression, use one | not two ||. 
