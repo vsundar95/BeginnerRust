@@ -1,0 +1,11 @@
+/home/vinnysundar/git/BeginnerRust/l35-regex/target/debug/deps/ucd_util-d5cb6c25573502aa.rmeta: /home/vinnysundar/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.8/src/lib.rs /home/vinnysundar/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.8/src/hangul.rs /home/vinnysundar/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.8/src/ideograph.rs /home/vinnysundar/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.8/src/name.rs /home/vinnysundar/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.8/src/property.rs /home/vinnysundar/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.8/src/unicode_tables/mod.rs /home/vinnysundar/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.8/src/unicode_tables/jamo_short_name.rs
+
+/home/vinnysundar/git/BeginnerRust/l35-regex/target/debug/deps/ucd_util-d5cb6c25573502aa.d: /home/vinnysundar/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.8/src/lib.rs /home/vinnysundar/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.8/src/hangul.rs /home/vinnysundar/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.8/src/ideograph.rs /home/vinnysundar/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.8/src/name.rs /home/vinnysundar/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.8/src/property.rs /home/vinnysundar/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.8/src/unicode_tables/mod.rs /home/vinnysundar/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.8/src/unicode_tables/jamo_short_name.rs
+
+/home/vinnysundar/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.8/src/lib.rs:
+/home/vinnysundar/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.8/src/hangul.rs:
+/home/vinnysundar/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.8/src/ideograph.rs:
+/home/vinnysundar/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.8/src/name.rs:
+/home/vinnysundar/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.8/src/property.rs:
+/home/vinnysundar/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.8/src/unicode_tables/mod.rs:
+/home/vinnysundar/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.8/src/unicode_tables/jamo_short_name.rs:

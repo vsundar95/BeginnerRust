@@ -306,3 +306,59 @@ to import the hash map struct into Rust using `use std::collections::HashMap`
 
 In this example we talk about inserting, getting, printing all key and value pair, removing a key and value pair,
 and checking to see if a key exits.
+
+#### Lesson 32 - Random Numbers 
+Crate name : l32-random-numbers
+
+First we need to import the rand crate in the Cargo.toml. Under dependencies, we
+need to add `rand = "0.3"`. Now in the .rs file, we need to add at the top,
+`extern crate rand` and `use rand::Rng`.
+
+For integer values, we need to generate a range using the `.gen_range(min, max)`
+command. For boolean values, we need to use the `.gen_weighted_bool(x)` command
+where x represents the value of 1 in x values being true.  
+
+#### Lesson 33 - String Methods
+Crate name : l33-string-methods
+
+For this tutorial on string methods, we chose to cover five main methods for Strings:
+	-> replace
+	-> lines
+	-> split
+	-> trim
+	-> chars
+
+#### Lesson 34 - Multiple Source Files
+Crate name : l34-multiple-source-files
+
+When creating multiple source files we need to include them as modules. TO
+do this, we add the `mod <name of file without .rs>` at the top of the file. 
+
+#### Lesson 35 - Regular Expressions
+Crate name : l35-regex
+
+We are using regular expressions to see if there is a match. For example,
+the expression we are using is the `\w{5}` to find if the word entered matches
+the 5-letter rule. 
+
+We have also used the capture method to capture what the word is that passes
+the regex rule. 
+
+#### Lesson 36 - Modules
+Crate name : l36-modules
+
+Modules allow you to separate code into neat sections. We define modules by 
+using the `mod` keyword. By default, all functions inside a module are private
+so we need to add a `pub` in front of the function.  
+
+We can have a public function call a private function and we can have modules 
+inside of a module. This can be called as `mod1::mod2::mod2_func`.
+
+#### Lesson 37 - Option (Enums)
+Crate name : l37-option
+
+Option represents either a value or no value at all. The two keywords to
+understand are Some and None. Some represents an option while None represents
+no option. We can have multiple Some but only one None. 
+
+We can even return an option depending on the situation. 
