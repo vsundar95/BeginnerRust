@@ -388,3 +388,7 @@ unsafe function and the relative path of the python3 command. To fix this, I
 am giving the absolute path of python3 which is /usr/bin/python3 to fix any 
 alias issues. As for the unsafe command, I am using from_utf8_lossy function 
 to convert the output from bytes to utf8-string. 
+
+The function String::from_utf8_lossy converts a slice of bytes to a string including
+invalid characters. This will replace any invalid UTF-8 sequences with a ? character.
+Therefore, the return output needs to be a valid UTF-8 string. 
