@@ -402,7 +402,7 @@ are other headers we can use too to do certain functions but please see the code
 for those headers.  
 
 NOTE: When calling out of scope functions, it is important to use the super
-keyword. SO when testing functions, write super::<function>. 
+keyword. So when testing functions, write super::<function>. 
 
 This super keyword also works for structs too. This allows us to write tests
 for structs and their implementation function. 
