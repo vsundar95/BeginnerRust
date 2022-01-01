@@ -343,3 +343,22 @@ the 5-letter rule.
 
 We have also used the capture method to capture what the word is that passes
 the regex rule. 
+
+#### Lesson 36 - Modules
+Crate name : l36-modules
+
+Modules allow you to separate code into neat sections. We define modules by 
+using the `mod` keyword. By default, all functions inside a module are private
+so we need to add a `pub` in front of the function.  
+
+We can have a public function call a private function and we can have modules 
+inside of a module. This can be called as `mod1::mod2::mod2_func`.
+
+#### Lesson 37 - Option (Enums)
+Crate name : l37-option
+
+Option represents either a value or no value at all. The two keywords to
+understand are Some and None. Some represents an option while None represents
+no option. We can have multiple Some but only one None. 
+
+We can even return an option depending on the situation. 
