@@ -11,6 +11,7 @@ fn main() {
     marks.insert("Mathematics", 92);
     marks.insert("English", 87);
     marks.insert("History", 91);
+    marks.insert("C++ Programming", 93);
 
     /* Find the length of the HashMap */
     println!("How many subjects have you taken? {}",
