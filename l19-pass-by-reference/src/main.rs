@@ -9,7 +9,7 @@ fn main() {
     let blue = Color { red: 0, green: 0, blue: 255 };
     
     /* This is how you pass a struct by reference by using
-     * the & sigh
+     * the & sign
      */
     print_color(&blue);
 }
