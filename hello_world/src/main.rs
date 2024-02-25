@@ -3,5 +3,5 @@ fn main() {
     // This is a comment in Rust
 
     /* This is also a comment */
-    println!("Hello, world!");
+    println!("Hello world!");
 }
